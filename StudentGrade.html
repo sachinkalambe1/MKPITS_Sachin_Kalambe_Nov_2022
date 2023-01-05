@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body bgcolor="pink">
+
+<pre>
+<script>
+phy=prompt("Enter your  phy marks");
+chem=prompt("Enter your chem  marks");
+math=prompt("Enter your math marks");
+a=parseInt(phy);
+b=parseInt(chem);
+c=parseInt(math);
+
+total=a+b+c;
+per=(total/300)*100;
+document.write(per);
+if(per>=90)
+{
+alert("A+");
+}
+else if(per>=80)
+{
+alert("B+");
+}
+else if(per>=60)
+{
+alert("c+");
+}
+else if(per>=35)
+{
+alert("d+");
+}
+
+else
+{
+alert("fails");
+}
+
+</script>
+
+</pre>
+</body>
+
+</html>
