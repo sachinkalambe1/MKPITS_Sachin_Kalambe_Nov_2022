@@ -7,14 +7,14 @@ class primeNumber
 public static void main(String[]args){
 
 Scanner Sc=new Scanner(System.in);
-//System.out.println("Enter number");
-//int num=Sc.nextInt();
+System.out.println("Enter number");
+int num=Sc.nextInt();
 
-for( int i=2; i<200 ;i++)
+for( int i=1; i<200 ;i++)
 {
-	if(i%2!=0)
+	if(num%i!=0)
 	{
-		System.out.println(i);
+		System.out.println(num);
 		}
 	}
 }
