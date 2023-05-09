@@ -1,0 +1,63 @@
+.main{
+    width: 100%;        
+     display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 1px;
+    justify-content:start;
+}
+.h1{
+text-align: center;
+line-height: 0.5px;
+margin-top: 50px;
+}
+.virat{
+width: 80%;
+float: left;
+}
+.butt{
+    width:200px ;
+    height: 50px;
+    border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px; 
+        margin-left: 180px;
+}
+.butt:hover{
+color: white;
+background-color: green;
+border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+}
+.virat{
+margin-top: 50px;
+width: 700px;
+        height: 350px;
+        border-left: 4px solid green;
+        border-right: 4px solid green;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        float: left;
+        margin-left: 30px;
+}
+.tex{
+margin-top: 50px;
+width: 600px;
+margin-left: 280px;
+}
+#b{
+color: green;
+}
+#p1{
+font-family:'Ubuntu', sans-serif;
+}
+.foo{
+width: 1500px;
+margin-top: 30px;
+height: 80px;
+background: linear-gradient(90deg, rgba(38,107,74,1) 24%, rgba(6,232,138,1) 87%);
+}
+#inside{
+padding-top: 30px;
+color: white;
+}
