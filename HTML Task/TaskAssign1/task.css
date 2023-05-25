@@ -1,0 +1,305 @@
+.main_div{
+    border-style: ridge;
+    }
+    .deal{
+        background-color: blue;
+        color: white;
+        height: 30px;
+    }
+    .sub_deal legend{
+        color: skyblue;
+    }
+    .buy{
+        color: blue;
+        padding-top: 100px;
+    }
+    .sel{
+        width: 300px;
+        height: 25px;
+    margin-left: 350px;
+    
+    }
+    #a{
+        color: blue;
+        margin-left: 100px;
+    }
+    .a1{
+        width: 300px;
+        height: 25px;
+    }
+    .specs{
+        width: 300px;
+        height: 25px;
+    margin-left: 48px;
+    }
+    .sp{
+    color: blue;
+    margin-left: 105px;
+    }
+    .portfolio{
+        margin-left: 100px;
+        width: 300px;
+        height: 25px;
+    }
+    .port{
+        margin-left: 320px;
+        color: blue;
+    }
+    .sta{
+        color: blue;
+        margin-left: 365px;
+    }
+    .statergy{
+        margin-left: 100px;
+        width: 300px;
+        height: 25px;
+    }
+    .Boo{
+        margin-left: 300px;
+    }
+    .Book{
+        width: 300px;
+        height: 25px;
+        float:right ;
+        margin-right: 40px;
+        background-color: rgb(235, 231, 231);
+    }
+    .sta_d{
+        margin-left: 295px;
+    }
+    .sta_des{
+        width: 300px;
+        height: 25px;
+        float:right ;
+        margin-right: 40px;
+    }
+    .fie{
+        height: 150px;
+        width: 640px;
+    }
+    .Int{
+        width: 685px;
+        margin-top: 10px;
+        margin-left: 100px;
+        height: 158px;
+    }
+    .div_flex{
+        display: flex;
+       
+    }
+    .Int_bo{
+        margin-left: 270px;
+    }
+    .s1{
+        width: 285px;
+        height: 25px;
+        background-color: rgb(235, 231, 231);
+    }
+    .s2{
+        margin-left: 70px;
+        width: 280px;
+        height: 20px;
+        background-color: rgb(235, 231, 231);
+    }
+    .s3{
+    margin-left: 5px;
+    
+    }
+    .s4{
+    margin-left: 266px;
+    
+    }
+    .s5{
+        width: 285px;
+        height: 25px;
+        background-color: rgb(235, 231, 231);
+    }
+    .s6{
+        margin-left: 70px;
+        width: 280px;
+        height: 20px;
+        background-color: rgb(235, 231, 231);
+    }
+    .l1{
+        color:blue;
+    }
+    .l2{
+        color:blue;
+        margin-left:190px;
+    }
+    .l3{
+        color: black;
+        margin-left: 140px;
+    }
+    .l4{
+        color: black;
+        margin-left: 145px;
+    }
+    .l5{
+        color: black;
+        margin-left: 150px;
+    }
+    .l6{
+        color: black;
+        margin-left: 90px;
+    }
+    .g1{
+        width:230px;
+        height: 20px;
+    }
+    .g2{
+        margin-left: 10px;
+        width:15%;
+        height: 20px;
+    }
+    .g3{
+        width:16%;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .g4{
+        width:14%;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .g5{
+        width:16%;
+        height: 20px;
+        margin-left: 5px;
+    }
+    .sa{
+        width: 16%;
+        height:25px;
+        margin-left: 10px;
+    }
+    .b1{
+        color: blue;
+    }
+    .b2{
+        margin-left: 140px;
+        color: blue;
+    }
+    .b3{
+        margin-left: 120px;
+        color: black;
+    }
+    .b4{
+        margin-left: 190px;
+        color: black;
+    }
+    .b5{
+        margin-left: 205px;
+        color: blue;
+    }
+    .b6{
+        margin-left: 155px;
+        color: blue;
+    }
+    .sub{
+        margin-top: 20px;
+    }
+    .p1{
+        width: 235px;
+        height: 25px;
+    }
+    .p2{
+        margin-left: 10px;
+        width: 235px;
+        height: 25px;
+    }
+    .p3{
+        margin-left: 10px;
+        width: 215px;
+        height: 20px;
+    }
+    .p4{
+        margin-left: 10px;
+        width: 235px;
+        height: 20px;
+    }
+    .p5{
+        margin-left: 10px;
+        width: 210px;
+        height: 25px;
+    }
+    .p6{
+        margin-left: 10px;
+        width: 235px;
+        height: 25px;
+    }
+    .c1{
+        color: blue;
+    }
+    .c2{
+        margin-left: 185px;
+    }
+    .c3{
+        margin-left: 155px;
+    }
+    .c4{
+        margin-left: 100px;
+    }
+    .c5{
+        margin-left: 175px;
+    }
+    .c6{
+        margin-left: 120px;
+    }
+    .t1{
+        width: 235px;
+        height: 25px;
+    }
+    .t2{
+        margin-left: 10px;
+        width: 235px;
+        height: 25px;
+    }
+    .t3{
+        margin-left: 10px;
+        width: 225px;
+        height: 25px;
+    }
+    .t4{
+        margin-left: 10px;
+        width: 240px;
+        height: 25px;
+    }
+    .t5{
+        margin-left: 10px;
+        width: 215px;
+        height: 25px;
+    }
+    .t6{
+        margin-left: 10px;
+        width: 230px;
+        height: 25px;
+    }
+    .st1{
+        color: blue;
+    }
+    .st2{
+    color: blue;
+    margin-left: 80px;
+    }
+    .dt1{
+    width: 130px;
+    }
+    .dt2{
+        
+    width: 130px;
+    margin-left: 15px;
+    }
+    .cross{
+        float: right;
+        margin-right: 10px;
+        padding-top: 5px;
+    }
+    .foot{
+        height: 45px;
+        background-color: rgb(156, 159, 159);
+    }
+    .in{
+        float: right;
+        padding-top: 12px;
+        margin-right: 20px;
+    }
