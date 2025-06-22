@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "DisplayStudent";
+}
+
+<h2 class="text-center mb-4">Student Details</h2>
+
+<div class="container d-flex justify-content-center">
+    <table class="table table-bordered w-auto">
+        <tr>
+            <td rowspan="5" class="align-middle text-center">
+                <img src="@Url.Content("~/Uploads/" + Model.Photo)" width="200" height="300" class="img-thumbnail" alt="Photo Not Found" />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Sid:</strong> @Model.Sid</td>
+        </tr>
+        <tr>
+            <td><strong>Name:</strong> @Model.Name</td>
+        </tr>
+        <tr>
+            <td><strong>Class:</strong> @Model.Class</td>
+        </tr>
+        <tr>
+            <td><strong>Fees:</strong> @Model.Fees</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center">
+                @Html.ActionLink("Back to DisplayStudents", "DisplayStudents", null, new { @class = "btn btn-primary" })
+            </td>
+        </tr>
+    </table>
+</div>

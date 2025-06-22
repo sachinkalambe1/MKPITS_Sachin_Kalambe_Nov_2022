@@ -1,0 +1,43 @@
+﻿@model MVCWithLinq1.Models.Student
+
+@{
+    ViewBag.Title = "EditStudent";
+}
+
+<h2 class="text-center mb-4">Update Student</h2>
+
+@using (Html.BeginForm("UpdateStudent", "Student", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="container" style="max-width: 500px;">
+        <div class="form-group">
+            @Html.LabelFor(S => S.Sid)
+            @Html.TextBoxFor(S => S.Sid, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(S => S.Name)
+            @Html.TextBoxFor(S => S.Name, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(S => S.Class)
+            @Html.TextBoxFor(S => S.Class, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(S => S.Fees)
+            @Html.TextBoxFor(S => S.Fees, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group text-center">
+            <img src="@Url.Content("~/Uploads/" + Model.Photo)" width="200" height="300" class="img-thumbnail mb-2" alt="Image Not Found" />
+            <br />
+            <input type="file" name="selectedFile" class="form-control-file" />
+        </div>
+
+        <div class="form-group text-center mt-3">
+            <input type="submit" value="Update" class="btn btn-success" />
+            <input type="reset" value="Cancel" class="btn btn-secondary ml-2" />
+        </div>
+    </div>
+}
