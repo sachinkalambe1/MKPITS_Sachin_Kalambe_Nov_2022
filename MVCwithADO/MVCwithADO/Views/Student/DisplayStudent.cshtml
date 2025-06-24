@@ -1,0 +1,28 @@
+﻿@model MVCwithADO.Models.Student
+
+@{
+    ViewBag.Title = "GetStudent";
+}
+
+<h2>GetStudent</h2>
+
+<table class="table table-striped">
+   <tr>
+       <td rowspan="5"><img src="~/Uploads/@Model.Photo"  alt="No Image"/></td>
+   </tr>
+    <tr>
+        <td>Sid : @Model.Sid </td>
+    </tr>
+    <tr>
+        <td>Name : @Model.Name</td>
+    </tr>
+    <tr>
+        <td>Class : @Model.Class</td>
+    </tr>
+    <tr>
+        <td>Fees : @Model.Fees</td>
+    </tr>
+   <tr>
+       <td colspan="6">@Html.ActionLink("Back To Display Students","DisplayStudents")</td>
+   </tr>
+</table>
